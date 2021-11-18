@@ -1,0 +1,56 @@
+/* Variables */
+:root {
+  --navbar-height: 100px;
+  --footer-height: 50px;
+
+  --font-color-light-1: #e2e2e2ff; /* Blanco pastel */
+  --font-color-dark-1: #000f; /* Negro */
+
+  --background-color-1: #edf0f2ff;
+  --background-color-2: #fefefeff;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* Nav */
+.navBar {
+    height: var(--navbar-height);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.navBar a {
+    padding: 10px 25px;
+    font-size: 1.2rem;
+}
+
+
+/* Img */
+.imgHome {
+    width: 100%;
+}
